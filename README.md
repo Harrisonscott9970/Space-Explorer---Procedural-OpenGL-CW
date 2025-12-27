@@ -109,12 +109,7 @@ ChatGPT was used for:
 ---
 
 ## Video Demonstration
-**YouTube (Unlisted):** *(link to be added)*  
-Includes:
-- Live walkthrough
-- Feature explanation
-- Real-time demo
-- Face camera for authentication
+**YouTube: TO BE ADDED**
 
 ---
 
