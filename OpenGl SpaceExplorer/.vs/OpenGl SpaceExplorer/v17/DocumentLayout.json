@@ -1,0 +1,194 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Harri\\OneDrive\\Desktop\\idk\\Code Projects\\OpenGl SpaceExplorer\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BAEFF5EB-8021-4E77-8037-C556FB5E0AD4}|OpenGl SpaceExplorer\\OpenGl SpaceExplorer.vcxproj|C:\\Users\\Harri\\OneDrive\\Desktop\\idk\\Code Projects\\OpenGl SpaceExplorer\\OpenGl SpaceExplorer\\OpenGl SpaceExplorer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BAEFF5EB-8021-4E77-8037-C556FB5E0AD4}|OpenGl SpaceExplorer\\OpenGl SpaceExplorer.vcxproj|solutionrelative:OpenGl SpaceExplorer\\OpenGl SpaceExplorer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAEFF5EB-8021-4E77-8037-C556FB5E0AD4}|OpenGl SpaceExplorer\\OpenGl SpaceExplorer.vcxproj|C:\\Users\\Harri\\OneDrive\\Desktop\\idk\\Code Projects\\OpenGl SpaceExplorer\\OpenGl SpaceExplorer\\PlanetGenerator.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BAEFF5EB-8021-4E77-8037-C556FB5E0AD4}|OpenGl SpaceExplorer\\OpenGl SpaceExplorer.vcxproj|solutionrelative:OpenGl SpaceExplorer\\PlanetGenerator.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAEFF5EB-8021-4E77-8037-C556FB5E0AD4}|OpenGl SpaceExplorer\\OpenGl SpaceExplorer.vcxproj|C:\\Users\\Harri\\OneDrive\\Desktop\\idk\\Code Projects\\OpenGl SpaceExplorer\\OpenGl SpaceExplorer\\Camera.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BAEFF5EB-8021-4E77-8037-C556FB5E0AD4}|OpenGl SpaceExplorer\\OpenGl SpaceExplorer.vcxproj|solutionrelative:OpenGl SpaceExplorer\\Camera.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAEFF5EB-8021-4E77-8037-C556FB5E0AD4}|OpenGl SpaceExplorer\\OpenGl SpaceExplorer.vcxproj|C:\\Users\\Harri\\OneDrive\\Desktop\\idk\\Code Projects\\OpenGl SpaceExplorer\\OpenGl SpaceExplorer\\Shader.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BAEFF5EB-8021-4E77-8037-C556FB5E0AD4}|OpenGl SpaceExplorer\\OpenGl SpaceExplorer.vcxproj|solutionrelative:OpenGl SpaceExplorer\\Shader.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAEFF5EB-8021-4E77-8037-C556FB5E0AD4}|OpenGl SpaceExplorer\\OpenGl SpaceExplorer.vcxproj|C:\\Users\\Harri\\OneDrive\\Desktop\\idk\\Code Projects\\OpenGl SpaceExplorer\\OpenGl SpaceExplorer\\Mesh.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BAEFF5EB-8021-4E77-8037-C556FB5E0AD4}|OpenGl SpaceExplorer\\OpenGl SpaceExplorer.vcxproj|solutionrelative:OpenGl SpaceExplorer\\Mesh.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAEFF5EB-8021-4E77-8037-C556FB5E0AD4}|OpenGl SpaceExplorer\\OpenGl SpaceExplorer.vcxproj|C:\\Users\\Harri\\OneDrive\\Desktop\\idk\\Code Projects\\OpenGl SpaceExplorer\\OpenGl SpaceExplorer\\HUDRenderer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BAEFF5EB-8021-4E77-8037-C556FB5E0AD4}|OpenGl SpaceExplorer\\OpenGl SpaceExplorer.vcxproj|solutionrelative:OpenGl SpaceExplorer\\HUDRenderer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAEFF5EB-8021-4E77-8037-C556FB5E0AD4}|OpenGl SpaceExplorer\\OpenGl SpaceExplorer.vcxproj|C:\\Users\\Harri\\OneDrive\\Desktop\\idk\\Code Projects\\OpenGl SpaceExplorer\\OpenGl SpaceExplorer\\GameState.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BAEFF5EB-8021-4E77-8037-C556FB5E0AD4}|OpenGl SpaceExplorer\\OpenGl SpaceExplorer.vcxproj|solutionrelative:OpenGl SpaceExplorer\\GameState.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAEFF5EB-8021-4E77-8037-C556FB5E0AD4}|OpenGl SpaceExplorer\\OpenGl SpaceExplorer.vcxproj|C:\\Users\\Harri\\OneDrive\\Desktop\\idk\\Code Projects\\OpenGl SpaceExplorer\\OpenGl SpaceExplorer\\fragment.glsl||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{BAEFF5EB-8021-4E77-8037-C556FB5E0AD4}|OpenGl SpaceExplorer\\OpenGl SpaceExplorer.vcxproj|solutionrelative:OpenGl SpaceExplorer\\fragment.glsl||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAEFF5EB-8021-4E77-8037-C556FB5E0AD4}|OpenGl SpaceExplorer\\OpenGl SpaceExplorer.vcxproj|C:\\Users\\Harri\\OneDrive\\Desktop\\idk\\Code Projects\\OpenGl SpaceExplorer\\OpenGl SpaceExplorer\\ProbeModel.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BAEFF5EB-8021-4E77-8037-C556FB5E0AD4}|OpenGl SpaceExplorer\\OpenGl SpaceExplorer.vcxproj|solutionrelative:OpenGl SpaceExplorer\\ProbeModel.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAEFF5EB-8021-4E77-8037-C556FB5E0AD4}|OpenGl SpaceExplorer\\OpenGl SpaceExplorer.vcxproj|C:\\Users\\Harri\\OneDrive\\Desktop\\idk\\Code Projects\\OpenGl SpaceExplorer\\OpenGl SpaceExplorer\\ProbeModel.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BAEFF5EB-8021-4E77-8037-C556FB5E0AD4}|OpenGl SpaceExplorer\\OpenGl SpaceExplorer.vcxproj|solutionrelative:OpenGl SpaceExplorer\\ProbeModel.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProbeModel.cpp",
+              "DocumentMoniker": "C:\\Users\\Harri\\OneDrive\\Desktop\\idk\\Code Projects\\OpenGl SpaceExplorer\\OpenGl SpaceExplorer\\ProbeModel.cpp",
+              "RelativeDocumentMoniker": "OpenGl SpaceExplorer\\ProbeModel.cpp",
+              "ToolTip": "C:\\Users\\Harri\\OneDrive\\Desktop\\idk\\Code Projects\\OpenGl SpaceExplorer\\OpenGl SpaceExplorer\\ProbeModel.cpp",
+              "RelativeToolTip": "OpenGl SpaceExplorer\\ProbeModel.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-27T02:13:00.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProbeModel.h",
+              "DocumentMoniker": "C:\\Users\\Harri\\OneDrive\\Desktop\\idk\\Code Projects\\OpenGl SpaceExplorer\\OpenGl SpaceExplorer\\ProbeModel.h",
+              "RelativeDocumentMoniker": "OpenGl SpaceExplorer\\ProbeModel.h",
+              "ToolTip": "C:\\Users\\Harri\\OneDrive\\Desktop\\idk\\Code Projects\\OpenGl SpaceExplorer\\OpenGl SpaceExplorer\\ProbeModel.h",
+              "RelativeToolTip": "OpenGl SpaceExplorer\\ProbeModel.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-27T02:12:27.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "fragment.glsl",
+              "DocumentMoniker": "C:\\Users\\Harri\\OneDrive\\Desktop\\idk\\Code Projects\\OpenGl SpaceExplorer\\OpenGl SpaceExplorer\\fragment.glsl",
+              "RelativeDocumentMoniker": "OpenGl SpaceExplorer\\fragment.glsl",
+              "ToolTip": "C:\\Users\\Harri\\OneDrive\\Desktop\\idk\\Code Projects\\OpenGl SpaceExplorer\\OpenGl SpaceExplorer\\fragment.glsl",
+              "RelativeToolTip": "OpenGl SpaceExplorer\\fragment.glsl",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGIAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-26T23:34:26.305Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GameState.h",
+              "DocumentMoniker": "C:\\Users\\Harri\\OneDrive\\Desktop\\idk\\Code Projects\\OpenGl SpaceExplorer\\OpenGl SpaceExplorer\\GameState.h",
+              "RelativeDocumentMoniker": "OpenGl SpaceExplorer\\GameState.h",
+              "ToolTip": "C:\\Users\\Harri\\OneDrive\\Desktop\\idk\\Code Projects\\OpenGl SpaceExplorer\\OpenGl SpaceExplorer\\GameState.h",
+              "RelativeToolTip": "OpenGl SpaceExplorer\\GameState.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-25T23:35:01.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HUDRenderer.h",
+              "DocumentMoniker": "C:\\Users\\Harri\\OneDrive\\Desktop\\idk\\Code Projects\\OpenGl SpaceExplorer\\OpenGl SpaceExplorer\\HUDRenderer.h",
+              "RelativeDocumentMoniker": "OpenGl SpaceExplorer\\HUDRenderer.h",
+              "ToolTip": "C:\\Users\\Harri\\OneDrive\\Desktop\\idk\\Code Projects\\OpenGl SpaceExplorer\\OpenGl SpaceExplorer\\HUDRenderer.h",
+              "RelativeToolTip": "OpenGl SpaceExplorer\\HUDRenderer.h",
+              "ViewState": "AQIAANwAAAAAAAAAAAAAAA0AAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-23T23:21:58.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Mesh.h",
+              "DocumentMoniker": "C:\\Users\\Harri\\OneDrive\\Desktop\\idk\\Code Projects\\OpenGl SpaceExplorer\\OpenGl SpaceExplorer\\Mesh.h",
+              "RelativeDocumentMoniker": "OpenGl SpaceExplorer\\Mesh.h",
+              "ToolTip": "C:\\Users\\Harri\\OneDrive\\Desktop\\idk\\Code Projects\\OpenGl SpaceExplorer\\OpenGl SpaceExplorer\\Mesh.h",
+              "RelativeToolTip": "OpenGl SpaceExplorer\\Mesh.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-23T22:50:16.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Shader.h",
+              "DocumentMoniker": "C:\\Users\\Harri\\OneDrive\\Desktop\\idk\\Code Projects\\OpenGl SpaceExplorer\\OpenGl SpaceExplorer\\Shader.h",
+              "RelativeDocumentMoniker": "OpenGl SpaceExplorer\\Shader.h",
+              "ToolTip": "C:\\Users\\Harri\\OneDrive\\Desktop\\idk\\Code Projects\\OpenGl SpaceExplorer\\OpenGl SpaceExplorer\\Shader.h",
+              "RelativeToolTip": "OpenGl SpaceExplorer\\Shader.h",
+              "ViewState": "AQIAAFYAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-23T22:50:05.765Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Camera.h",
+              "DocumentMoniker": "C:\\Users\\Harri\\OneDrive\\Desktop\\idk\\Code Projects\\OpenGl SpaceExplorer\\OpenGl SpaceExplorer\\Camera.h",
+              "RelativeDocumentMoniker": "OpenGl SpaceExplorer\\Camera.h",
+              "ToolTip": "C:\\Users\\Harri\\OneDrive\\Desktop\\idk\\Code Projects\\OpenGl SpaceExplorer\\OpenGl SpaceExplorer\\Camera.h",
+              "RelativeToolTip": "OpenGl SpaceExplorer\\Camera.h",
+              "ViewState": "AQIAADUAAAAAAAAAAAAAAE8AAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-23T22:46:15.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlanetGenerator.h",
+              "DocumentMoniker": "C:\\Users\\Harri\\OneDrive\\Desktop\\idk\\Code Projects\\OpenGl SpaceExplorer\\OpenGl SpaceExplorer\\PlanetGenerator.h",
+              "RelativeDocumentMoniker": "OpenGl SpaceExplorer\\PlanetGenerator.h",
+              "ToolTip": "C:\\Users\\Harri\\OneDrive\\Desktop\\idk\\Code Projects\\OpenGl SpaceExplorer\\OpenGl SpaceExplorer\\PlanetGenerator.h",
+              "RelativeToolTip": "OpenGl SpaceExplorer\\PlanetGenerator.h",
+              "ViewState": "AQIAAD4BAAAAAAAAAAAAAEMBAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-23T22:50:34.66Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OpenGl SpaceExplorer.cpp",
+              "DocumentMoniker": "C:\\Users\\Harri\\OneDrive\\Desktop\\idk\\Code Projects\\OpenGl SpaceExplorer\\OpenGl SpaceExplorer\\OpenGl SpaceExplorer.cpp",
+              "RelativeDocumentMoniker": "OpenGl SpaceExplorer\\OpenGl SpaceExplorer.cpp",
+              "ToolTip": "C:\\Users\\Harri\\OneDrive\\Desktop\\idk\\Code Projects\\OpenGl SpaceExplorer\\OpenGl SpaceExplorer\\OpenGl SpaceExplorer.cpp",
+              "RelativeToolTip": "OpenGl SpaceExplorer\\OpenGl SpaceExplorer.cpp",
+              "ViewState": "AQIAABIEAAAAAAAAAAAAAAQEAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-22T00:50:17.71Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
