@@ -152,7 +152,13 @@ In an attempt to integrate audio into the project, I reached out to Ambiera for 
 ---
 
 ## Screenshots
-*(Add screenshots here)*
+
+<img width="1281" height="720" alt="image" src="https://github.com/user-attachments/assets/294042b8-6578-414d-9f94-ce460ecbbc5c" />
+
+Procedurally generated space scene featuring a star and surrounding planetary debris. The HUD displays real-time navigation and system status, providing essential feedback for interaction within the environment.
+
+<img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/2dc42149-c7d3-4b94-94c5-ea47ea04bc00" />
+Procedurally generated planet Xelonix-1, classified as 'Class Green,' with varied biomes including green landmasses and metallic terrain, demonstrating dynamic surface generation.
 
 ---
 
