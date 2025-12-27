@@ -6,9 +6,10 @@
 
 ## Project Overview
 Space Explorer is a real-time interactive 3D prototype developed in C++ using OpenGL 4.x.  
+
 The project focuses on procedural content generation (PCG), real-time rendering, and user-controlled navigation within a space environment.
 
-The application was built without using any game engine, adhering strictly to the module requirements and approved libraries.
+The application was built without using any game engine, following strictly with the module requirements and approved libraries.
 
 ---
 
@@ -16,12 +17,12 @@ The application was built without using any game engine, adhering strictly to th
 - OpenGL 4.x core profile rendering
 - Custom vertex and fragment shaders
 - Procedurally generated planets
-- Height variation (non-flat terrain)
+- Height variation
 - Multiple biome types per planet
 - Real-time keyboard and mouse input
 - Free-flight camera system
 - Scene animation (planet rotation / movement)
-- Assimp-loaded 3D model(s)
+- Assimp-loaded 3D models
 - Texture loading via stb_image
 - Starfield rendering system
 - HUD rendering via separate shader
@@ -29,14 +30,15 @@ The application was built without using any game engine, adhering strictly to th
 ---
 
 ## Gameplay Description
-The prototype allows the player to freely explore a procedurally generated space scene.  
-Each execution produces a different configuration of planets with varying heights and biome types.
+The demo game allows the player to freely explore a procedurally generated space scene.  
 
-The experience focuses on exploration rather than win/lose conditions, aligning with a sandbox-style design.
+Each time you load up it produces a different configuration of planets with varying heights and biome types.
+
+The experience focuses on exploration rather than win/lose conditions, aligning with a more sandbox-style design.
 
 ---
 
-## Original Contributions (Key Requirement B)
+## Original Contributions
 The following original features were implemented and are covered in lecture material:
 
 1. **Procedural Content Generation**
@@ -66,12 +68,52 @@ All libraries used are permitted by the module.
 
 ---
 
-## Use of AI
-ChatGPT was used for:
-- Concept clarification
-- Debugging assistance
-- Small code templates
+# Use of AI
 
+ChatGPT was used for various aspects of this project, aiding in both the development and debugging phases.
+
+Concept Clarification
+ChatGPT helped refine the procedural generation logic for planets, height maps, and biomes to ensure that they behaved as expected. This included offering suggestions on how to structure and implement different procedural elements.
+
+Debugging Assistance
+It provided solutions to several OpenGL initialization and shader issues, as well as fixes for procedural generation errors that were encountered during development. 
+
+Code Templates
+ChatGPT generated small code snippets, such as the `randf` function for random number generation, which helped me with the procedural logic for generating features of the planets. This was key in speeding up the development of the procedural generation system.
+
+HUD Rendering Logic
+Assistance was also provided in designing the system for rendering text on the HUD. This involved:
+
+- Mapping characters (digits and letters) to 2D line segments for text rendering.
+- Suggesting approaches for dynamically rendering each character by adding corresponding line segments to the HUD.
+
+### Example (Glyph Mapping for Text Rendering):
+```cpp
+
+static const std::vector<Seg> A = {
+    {0.20f, 0.15f, 0.20f, 0.85f},  // Left vertical line
+    {0.80f, 0.15f, 0.80f, 0.85f},  // Right vertical line
+    {0.20f, 0.85f, 0.80f, 0.85f},  // Top horizontal line
+    {0.20f, 0.50f, 0.80f, 0.50f},  // Middle horizontal line
+};
+
+static const std::vector<Seg> B = {
+    {0.20f, 0.15f, 0.20f, 0.85f},  // Left vertical line
+    {0.20f, 0.85f, 0.70f, 0.85f},  // Top curve
+    {0.70f, 0.85f, 0.75f, 0.75f},  // Top curve curve right
+    {0.75f, 0.75f, 0.70f, 0.65f},  // Right curve
+    {0.70f, 0.65f, 0.20f, 0.65f},  // Bottom curve
+    {0.20f, 0.65f, 0.70f, 0.65f},  // Right curve bottom
+    // Additional segments for bottom and middle parts...
+};
+
+switch (c) {
+    case 'A': return A;
+    case 'B': return B;
+    // Other characters handled here...
+    default: return EMPTY;  // Default case for unknown characters
+}
+```
 ---
 
 ## Software Design
@@ -103,6 +145,12 @@ ChatGPT was used for:
 
 ---
 
+## Audio Implementation
+
+In an attempt to integrate audio into the project, I reached out to Ambiera for a student license for the IrrKlang SDK, as the download was restricted to licensed users. Unfortunately, I was informed that the SDK is only available for existing license holders, so I was unable to use it for the project.
+
+---
+
 ## Screenshots
 *(Add screenshots here)*
 
@@ -123,5 +171,5 @@ This project successfully demonstrates:
 Future improvements would include:
 - Additional model formats
 - Audio integration
-- Advanced lighting techniques
+- More realistic space behaviour 
 - Expanded gameplay mechanics
