@@ -38,6 +38,21 @@ The experience focuses on exploration rather than win/lose conditions, aligning 
 
 ---
 
+| Controls           | Action                      |
+| ------------------ | --------------------------- |
+| **W**              | forward                     |
+| **S**              | backward                    |
+| **A**              | left                        |
+| **D**              | right                       |
+| **Space**          | up                          |
+| **Left Ctrl**      | down                        |
+| **Left Shift**     | Boost                       |
+| **E**              | Scan                        |
+| **Mouse Movement** | Rotate camera / look around |
+| **Esc**            | Exit application            |
+
+---
+
 ## Original Contributions
 The following original features were implemented and are covered in lecture material:
 
