@@ -23,9 +23,11 @@ The application was built without using any game engine, following strictly with
 - Free-flight camera system
 - Scene animation (planet rotation / movement)
 - Assimp-loaded 3D models
+- Dynamic Lighting (Sun)
 - Texture loading via stb_image
 - Starfield rendering system
 - HUD rendering via separate shader
+- 10-minute video
 
 ---
 
