@@ -27,6 +27,7 @@ The application was built without using any game engine, following strictly with
 - Texture loading via stb_image
 - Starfield rendering system
 - HUD rendering via separate shader
+- Dynamic Lighting Blinn-Phong
 - 10-minute video
 
 ---
@@ -70,6 +71,22 @@ The following original features were implemented and are covered in lecture mate
    - Frame-rate independent updates
 
 ---
+
+## Gamification Elements
+
+The game incorporates multiple gamification mechanisms to promote engagement, replayability, and player motivation:
+
+Score-Based Progression System
+A scoring system tracks player progress during each run, providing measurable feedback for in-game actions. This introduces a clear sense of progression and reward without enforcing a fixed win condition.
+
+Procedural Variety as Replay Incentive
+Each playthrough generates a different number of planets with varied spatial configurations, ensuring non-repetitive gameplay and encouraging repeated sessions to achieve higher scores.
+
+Exploration-Driven Gameplay
+Player movement and camera control prioritise free exploration, allowing players to optimise routes and decisions to improve their score rather than follow scripted objectives.
+
+Real-Time Visual Feedback
+Dynamic lighting, animated models, and responsive camera controls provide immediate feedback to player input, reinforcing immersion and engagement.
 
 ## Technologies & Dependencies
 All libraries used are permitted by the module.
@@ -193,6 +210,5 @@ This project successfully demonstrates:
 
 Future improvements would include:
 - Additional model formats
-- Audio integration
 - More realistic space behaviour 
 - Expanded gameplay mechanics
