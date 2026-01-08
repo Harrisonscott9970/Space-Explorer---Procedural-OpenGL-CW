@@ -202,6 +202,12 @@ Procedurally generated planet Xelonix-1, classified as 'Class Green,' with varie
 
 ---
 
+<img width="430" height="122" alt="6a151b11-d6a5-4bbe-ad5b-0fb69b5fb352" src="https://github.com/user-attachments/assets/ba0804c7-8b38-4e60-b086-6d67b98c0cbf" />
+
+End-game screen showing my signature rendered in-engine to clearly demonstrate project authorship.
+
+---
+
 ## Evaluation
 This project successfully demonstrates:
 - A working OpenGL 4.x rendering pipeline
