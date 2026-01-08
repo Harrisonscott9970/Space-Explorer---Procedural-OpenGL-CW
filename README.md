@@ -65,10 +65,11 @@ The following original features were implemented and are covered in lecture mate
    - Multiple biome types
    - Non-repeating layouts
 
-2. **Real-Time Interaction System**
-   - Keyboard-based movement
-   - Mouse-controlled camera rotation
-   - Frame-rate independent updates
+2. **Interactive Space Exploration & Scanning Mechanics**
+   - Free-flight spacecraft movement with inertia-style controls
+   - Crosshair-based planet targeting
+   - Proximity-limited scanning system with progress feedback
+   - Real-time HUD updates based on player interaction
 
 ---
 
@@ -80,13 +81,13 @@ Score-Based Progression System
 A scoring system tracks player progress during each run, providing measurable feedback for in-game actions. This introduces a clear sense of progression and reward without enforcing a fixed win condition.
 
 Procedural Variety as Replay Incentive
-Each playthrough generates a different number of planets with varied spatial configurations, ensuring non-repetitive gameplay and encouraging repeated sessions to achieve higher scores.
+Each playthrough generates a different number of planets with varied configurations, ensuring non-repetitive gameplay and encouraging repeated sessions to improve performance and achieve higher scores. Procedural replayability aligns with modern game design principles that emphasise player-driven exploration and intrinsic motivation, as described by Self-Determination Theory (Ryan & Deci, 2020).
 
 Exploration-Driven Gameplay
 Player movement and camera control prioritise free exploration, allowing players to optimise routes and decisions to improve their score rather than follow scripted objectives.
 
 Real-Time Visual Feedback
-Dynamic lighting, animated models, and responsive camera controls provide immediate feedback to player input, reinforcing immersion and engagement.
+Dynamic lighting, animated models, and responsive camera controls provide immediate feedback to player input, reinforcing immersion and sustaining player engagement during exploration.
 
 ## Technologies & Dependencies
 All libraries used are permitted by the module.
@@ -212,3 +213,9 @@ Future improvements would include:
 - Additional model formats
 - More realistic space behaviour 
 - Expanded gameplay mechanics
+
+## References
+
+Ryan, R. M., & Deci, E. L. (2020). *Self-Determination Theory: Basic Psychological Needs in Motivation, Development, and Wellness*. Guilford Press.  
+https://selfdeterminationtheory.org/publications/
+
