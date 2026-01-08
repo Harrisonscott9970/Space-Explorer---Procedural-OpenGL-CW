@@ -5,6 +5,6 @@ C:\Users\Harri\OneDrive\Desktop\Space-Explorer---Procedural-OpenGL-CW\OpenGl Spa
 C:\Users\Harri\OneDrive\Desktop\Space-Explorer---Procedural-OpenGL-CW\OpenGl SpaceExplorer\OpenGl SpaceExplorer\StarRenderer.h(46,36): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
   (compiling source file 'OpenGl%20SpaceExplorer.cpp')
   
-C:\Users\Harri\OneDrive\Desktop\Space-Explorer---Procedural-OpenGL-CW\OpenGl SpaceExplorer\OpenGl SpaceExplorer\OpenGl SpaceExplorer.cpp(493,53): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Harri\OneDrive\Desktop\Space-Explorer---Procedural-OpenGL-CW\OpenGl SpaceExplorer\OpenGl SpaceExplorer\OpenGl SpaceExplorer.cpp(482,53): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
 LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
   OpenGl SpaceExplorer.vcxproj -> C:\Users\Harri\OneDrive\Desktop\Space-Explorer---Procedural-OpenGL-CW\OpenGl SpaceExplorer\x64\Debug\OpenGl SpaceExplorer.exe

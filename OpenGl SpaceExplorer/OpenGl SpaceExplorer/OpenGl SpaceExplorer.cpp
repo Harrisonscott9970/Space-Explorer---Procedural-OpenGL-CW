@@ -51,9 +51,6 @@ const int WINDOW_WIDTH = 1280;
 const int WINDOW_HEIGHT = 720;
 const char* WINDOW_TITLE = "Space Explorer - Procedural Generation";
 
-// ---------------------------
-// Global state
-// ---------------------------
 
 // Camera + mouse tracking
 std::unique_ptr<Camera> g_camera;
@@ -169,9 +166,7 @@ bool isLookingAtTarget(const glm::vec3& targetPos, float aimDegrees) {
     return d >= cosThreshold;
 }
 
-// ---------------------------
 // Probe spawning logic
-// ---------------------------
 
 // Slightly weighted random choice: most planets get 1 probe if they get any
 static int rollProbeCount() {
@@ -320,11 +315,9 @@ static void renderBrokenProbes()
     }
 }
 
-// ---------------------------
 // OpenGL error handling / debug
-// ---------------------------
 
-// Polls glGetError and prints any errors found
+// prints any errors found
 void glCheckError(const char* file, int line) {
     GLenum err;
     while ((err = glGetError()) != GL_NO_ERROR) {
@@ -345,9 +338,7 @@ void GLAPIENTRY glDebugOutput(GLenum source, GLenum type, GLuint id, GLenum seve
     std::cerr << "GL Debug: " << message << " (type: " << std::hex << type << ")" << std::endl;
 }
 
-// ---------------------------
 // GLFW input callbacks
-// ---------------------------
 
 // Mouse move => update camera look direction
 void mouse_callback(GLFWwindow* window, double xpos, double ypos) {
@@ -383,9 +374,7 @@ void key_callback(GLFWwindow* window, int key, int scancode, int action, int mod
     }
 }
 
-// ---------------------------
 // Initialization functions
-// ---------------------------
 
 // Creates the window + sets up GLFW callbacks
 GLFWwindow* initializeWindow() {
@@ -544,9 +533,7 @@ void initializeScene() {
     }
 }
 
-// ---------------------------
 // Rendering functions
-// ---------------------------
 
 // Draw starfield in the background
 void renderStars(const glm::mat4& view, const glm::mat4& projection) {
@@ -769,9 +756,8 @@ void buildHUD(float deltaTime) {
     // Convert camera yaw to radians (offset is for your coordinate convention)
     float cameraYaw = glm::radians(g_camera->Yaw + 90.0f);
 
-    // ---------------------------
     // Speedometer (bottom right)
-    // ---------------------------
+  
     float cx = 1150, cy = 100;
     float radius = 70.f;
 
@@ -796,9 +782,8 @@ void buildHUD(float deltaTime) {
     g_hudRenderer->addLine(glm::vec2(cx - 8, cy), glm::vec2(cx + 8, cy), glm::vec3(0.0f, 1.0f, 0.8f));
     g_hudRenderer->addLine(glm::vec2(cx, cy - 8), glm::vec2(cx, cy + 8), glm::vec3(0.0f, 1.0f, 0.8f));
 
-    // ---------------------------
     // Radar (bottom left)
-    // ---------------------------
+
     float rx = 80, ry = 100;
     float radarRadius = 70.f;
 
@@ -856,16 +841,15 @@ void buildHUD(float deltaTime) {
         g_hudRenderer->addCircle(asteroidPos, asteroidRadius, asteroidColor, 16);
     }
 
-    // ---------------------------
     // Crosshair (screen centre)
-    // ---------------------------
+
     float centerX = 640.0f, centerY = 360.0f;
     g_hudRenderer->addLine(glm::vec2(centerX - 10, centerY), glm::vec2(centerX + 10, centerY), glm::vec3(0.0f, 1.0f, 1.0f));
     g_hudRenderer->addLine(glm::vec2(centerX, centerY - 10), glm::vec2(centerX, centerY + 10), glm::vec3(0.0f, 1.0f, 1.0f));
 
-    // ---------------------------
+
     // Target info (name/class) if aimed / scanning
-    // ---------------------------
+
     if (g_gameState && g_gameState->currentTarget != -1) {
         Planet& target = g_planets[g_gameState->currentTarget];
 
@@ -905,9 +889,9 @@ void buildHUD(float deltaTime) {
             glm::vec3(1.0f, 0.1f, 0.1f) * pulse, 48);
     }
 
-    // ---------------------------
+
     // Scanned planets indicator (top left)
-    // ---------------------------
+
     int total = g_gameState ? g_gameState->totalPlanets : (int)g_planets.size();
     int scanned = g_gameState ? g_gameState->scannedPlanets : 0;
 
@@ -921,9 +905,8 @@ void buildHUD(float deltaTime) {
         g_hudRenderer->addCircle(glm::vec2(dotsX + i * gap, dotsY), dotR, c, 20);
     }
 
-    // ---------------------------
     // Scan progress bar (top middle)
-    // ---------------------------
+
     if (g_gameState && g_gameState->currentTarget != -1 &&
         !g_planets[g_gameState->currentTarget].scanned)
     {
@@ -977,9 +960,8 @@ void buildHUD(float deltaTime) {
         }
     }
 
-    // ---------------------------
     // End screen (survey complete)
-    // ---------------------------
+
     if (g_gameState && g_gameState->surveyComplete) {
         float cx = WINDOW_WIDTH * 0.5f;
         float cy = WINDOW_HEIGHT * 0.55f;
@@ -1014,10 +996,35 @@ void buildHUD(float deltaTime) {
         glm::vec3 promptCol = glm::vec3(0.0f, 1.0f, 0.85f) * blink;
         g_hudRenderer->addText(glm::vec2(cx - 150.0f, cy - 70.0f), 14.0f, promptCol, "PRESS R TO RESTART");
         g_hudRenderer->addText(glm::vec2(cx - 120.0f, cy - 92.0f), 12.0f, dimCol * 1.3f, "ESC TO QUIT");
+
+        // Signature (top right)
+
+        {
+            std::string sig = "CREATED BY HARRISON SCOTT";
+
+            float fontSize = 6.0f; // small
+            glm::vec3 sigCol(0.85f, 0.85f, 0.85f); // bright grey
+
+            float approxCharW = fontSize * 0.6f;
+            float textW = approxCharW * (float)sig.size();
+
+            float margin = 20.0f;
+            float leftOffset = 100.0f; 
+
+            glm::vec2 pos(
+                (float)WINDOW_WIDTH - margin - textW - leftOffset,
+                (float)WINDOW_HEIGHT - 25.0f
+            );
+
+            g_hudRenderer->addText(pos, fontSize, sigCol, sig);
+        }
+
     }
 
     // Upload HUD geometry to GPU buffers
     g_hudRenderer->finalize();
+
+
 }
 
 // Draw the HUD (2D overlay)
@@ -1084,9 +1091,8 @@ void updateMoons(float deltaTime) {
     }
 }
 
-// ---------------------------
 // Main program
-// ---------------------------
+
 int main() {
     try {
         std::cout << "=== Initializing Space Explorer ===" << std::endl;
@@ -1128,9 +1134,7 @@ int main() {
             // Update orbiting probes around planets
             updateProbes(deltaTime);
 
-            // ---------------------------
             // Scanning logic
-            // ---------------------------
 
             // Always target the nearest unscanned planet
             g_gameState->currentTarget = findNearestUnscannedPlanet(g_camera->Position);
@@ -1211,9 +1215,7 @@ int main() {
                 spawnProbesForPlanets();
             }
 
-            // ---------------------------
             // Collision checks
-            // ---------------------------
 
             float playerRadius = 2.0f;
 
@@ -1242,9 +1244,7 @@ int main() {
             // Update moons (note: this is duplicated with renderMoons updates)
             updateMoons(deltaTime);
 
-            // ---------------------------
             // Camera matrices + render
-            // ---------------------------
 
             glm::mat4 projection = glm::perspective(
                 glm::radians(60.0f),
